@@ -7,14 +7,6 @@
         "test": "jest",
         "start": "node src/app.js"
     },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/Nimish0410/acme-supermarket-problem.git"
-    },
-    "keywords": [
-        "javascript",
-        "test"
-    ],
     "author": "",
     "license": "ISC",
     "dependencies": {
