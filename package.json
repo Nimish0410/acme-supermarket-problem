@@ -9,7 +9,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/ag-digital/acme-supermarket-test.git"
+        "url": "git+https://github.com/Nimish0410/acme-supermarket-problem.git"
     },
     "keywords": [
         "javascript",
@@ -17,10 +17,6 @@
     ],
     "author": "",
     "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/ag-digital/acme-supermarket-test/issues"
-    },
-    "homepage": "https://github.com/ag-digital/acme-supermarket-test#readme",
     "dependencies": {
         "jest": "^24.9.0"
     }
