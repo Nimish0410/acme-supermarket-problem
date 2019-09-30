@@ -39,18 +39,23 @@ Test Data:
 
 # Solution
 
-# Basket logic has been implemented in Object oriented javascript. Using react would have been an overkill here since the focus is on the implementation of the basket.
+ Basket logic has been implemented in Object oriented javascript. Using react would have been an overkill here since the focus is on the implementation of the basket.
 
-# Application can be run using npm start and the cart total would be displayed in the terminal.
+ Application can be run using npm start and the cart total would be displayed in the terminal.
 
-# Jest has been used for unit test cases.
+ Jest has been used for unit test cases.
 
-# Run npm run test for test cases.
+ Run npm run test for test cases.
 
-# The app is split across various modules
-    - app.js which initializaion and invokes the basket functionality.
-    - basket.js creates the basket class with methods to add items to cart and calculate total of the cart through runniing the pricing rules.(as per the interface in the prolem statement)
-    - pricingRules.js specifies BOGO and BULK_BUY rules that will run on the items in the cart. This can be scaled to add/delete rules applied on cart items
-    - products.js holds all the products that acme super market does.
-    - offer.js holds the definition of what every offer does to the items on the cart.
+ The app is split across various modules :
+ 
+    1. app.js which initializaion and invokes the basket functionality.
+
+    2. basket.js creates the basket class with methods to add items to cart and calculate total of the cart through runniing the pricing rules.(as per the interface in the prolem statement)
+
+    3. pricingRules.js specifies BOGO and BULK_BUY rules that will run on the items in the cart. This can be scaled to add/delete rules applied on cart items.
+
+    4. products.js holds all the products that acme super market does.
+
+    5. offer.js holds the definition of what every offer does to the items on the cart.
     
